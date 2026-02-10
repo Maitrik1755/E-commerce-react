@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams , Link} from 'react-router-dom'
-import { initialProducts } from '../Data/Product'
+import { initialProducts } from '../Data/product'
 import { ShoppingCart, ChevronLeft, Tag, Zap } from "lucide-react";
 import { useCart } from '../Context/CartContext';
 const ProductDetail = () => {

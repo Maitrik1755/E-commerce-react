@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useMemo } from "react";
 import { ToastContainer, toast,Slide,Bounce } from 'react-toastify';
 
 const CartContext = createContext();
-import { initialProducts } from "../Data/Product";
+import { initialProducts } from "../Data/product";
 
 export const CartProvider = (props) => {
   const [cart, setCart] = useState([]);

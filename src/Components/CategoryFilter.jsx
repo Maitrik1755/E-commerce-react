@@ -1,6 +1,6 @@
 import React from "react";
 
-import { initialProducts } from "../Data/Product";
+import { initialProducts } from "../Data/product";
 
 import { Tag } from "lucide-react";
 
